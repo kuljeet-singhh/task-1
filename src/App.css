@@ -1,7 +1,41 @@
+*{
+  box-sizing: border-box;
+}
 .App {
+  margin: 30px;
+  Width: 600px; 
+  margin: 40px auto;
   text-align: center;
+  border: solid black 1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
 }
 
 
+.items{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.add-button{
+  border-radius: 3px;
+  padding: 3px;
+  width: 100px;
+ 
+}
+.delete-btn{
+  border-radius: 5px;
+  margin: 5px;
+   padding:3px; 
+}
+.Edit-btn{
+   border-radius: 5px;
+    margin: 5px;
+   padding:3px; 
+}
 
 
